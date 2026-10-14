@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:thr="http://purl.org/syndication/thread/1.0">
+<title>test</title>
+<entry><author><name>Alice Dev</name><email>alice@example.org</email></author>
+<title>[PATCH net-next v4 0/2] net: foo: speed up rx</title><updated>2026-10-12T10:00:00Z</updated>
+<link href="https://lore.kernel.org/lkml/cover@x/"/><id>urn:uuid:cover</id>
+<content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><pre>This series speeds things up.</pre></div></content></entry>
+<entry><author><name>Alice Dev</name><email>alice@example.org</email></author>
+<title>[PATCH net-next v4 1/2] net: foo: batch descriptors</title><updated>2026-10-12T10:01:00Z</updated>
+<link href="https://lore.kernel.org/lkml/p1@x/"/><id>urn:uuid:p1</id><thr:in-reply-to ref="urn:uuid:cover" href="x"/>
+<content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><pre>Signed-off-by: Alice Dev &lt;alice@example.org&gt;
+diff --git a/drivers/net/foo.c b/drivers/net/foo.c</pre></div></content></entry>
+<entry><author><name>Bob Maintainer</name><email>bob@example.org</email></author>
+<title>Re: [PATCH net-next v4 1/2] net: foo: batch descriptors</title><updated>2026-10-12T12:00:00Z</updated>
+<link href="https://lore.kernel.org/lkml/r1@x/"/><id>urn:uuid:r1</id><thr:in-reply-to ref="urn:uuid:p1" href="x"/>
+<content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><pre>&gt; Reviewed-by: Someone Quoted &lt;q@example.org&gt;
+Looks good.
+Reviewed-by: Bob Maintainer &lt;bob@example.org&gt;</pre></div></content></entry>
+<entry><author><name>Carol Tester</name><email>carol@example.org</email></author>
+<title>Re: [PATCH net-next v4 1/2] net: foo: batch descriptors</title><updated>2026-10-12T13:00:00Z</updated>
+<link href="https://lore.kernel.org/lkml/r2@x/"/><id>urn:uuid:r2</id><thr:in-reply-to ref="urn:uuid:p1" href="x"/>
+<content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><pre>Tested-by: Carol Tester &lt;carol@example.org&gt;</pre></div></content></entry>
+<entry><author><name>Dan</name><email>dan@example.org</email></author>
+<title>[REGRESSION] mm: boot hang since 6.18-rc1</title><updated>2026-10-12T14:00:00Z</updated>
+<link href="https://lore.kernel.org/lkml/reg@x/"/><id>urn:uuid:reg</id>
+<content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><pre>Boot hangs.</pre></div></content></entry>
+<entry><author><name>Erin</name><email>erin@example.org</email></author>
+<title>[PATCH] mm/slub: fix typo</title><updated>2026-10-12T15:00:00Z</updated>
+<link href="https://lore.kernel.org/lkml/single@x/"/><id>urn:uuid:single</id>
+<content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><pre>diff --git a/mm/slub.c b/mm/slub.c</pre></div></content></entry>
+</feed>
